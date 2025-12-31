@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: chmod +x bgmi
-    - run: sudo ./bgmi ip port time 999
+    - run: sudo ./bgmi 91.108.17.53 32002 120 999
