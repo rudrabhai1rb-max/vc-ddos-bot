@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: chmod +x bgmi
-    - run: sudo ./bgmi 135.235.158.149 14945 200 999
+    - run: sudo ./bgmi 20.198.75.22 11294 10 999
